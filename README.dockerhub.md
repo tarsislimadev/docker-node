@@ -2,7 +2,7 @@
 
 Imagem Docker para compilaçao de projetos Node.js
 
-Veja mais em [hub.docker.com/r/tmvdl/node](https://hub.docker.com/r/tmvdl/node)
+Veja mais em [github.com/tmvdl/docker-node](https://github.com/tmvdl/docker-node)
 
 ## Como usar
 
@@ -39,4 +39,4 @@ docker run --name nodejs tmvdl/node
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/tmvdl/docker-node/blob/main/LICENSE)

@@ -2,7 +2,7 @@ name: Pull
 
 on:
   schedule:
-    - cron: '55 6 * * *'
+    - cron: '35 * * * *'
   workflow_dispatch:
 
 jobs:

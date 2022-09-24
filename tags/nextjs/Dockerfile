@@ -2,4 +2,4 @@ FROM node:lts
 
 WORKDIR /app
 
-RUN npm install -g next react react-dom
+RUN npm install -g vercel next react react-dom

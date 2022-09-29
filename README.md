@@ -24,22 +24,10 @@ docker pull tmvdl/node:alpine
 docker pull tmvdl/node:docker
 ```
 
-### docker-alpine
-
-```sh
-docker pull tmvdl/node:docker-alpine
-```
-
 ### git
 
 ```sh
 docker pull tmvdl/node:git
-```
-
-### git-alpine
-
-```sh
-docker pull tmvdl/node:git-alpine
 ```
 
 ### heroku

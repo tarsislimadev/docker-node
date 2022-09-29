@@ -1,3 +1,3 @@
-FROM node:lts
+FROM node:lts-alpine
 
 RUN npm i -g heroku

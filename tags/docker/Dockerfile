@@ -1,4 +1,4 @@
-FROM docker/compose:debian-1.29.2
+FROM docker/compose:alpine-1.28.6
 
 RUN apt update -y && apt install -y curl wget nano sudo
 

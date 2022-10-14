@@ -13,7 +13,7 @@ fi
 echo tags $TAGS
 
 for TAG in $TAGS; do
-  docker build -t tmvdl/node:$TAG $TAGS_DIR/$TAG/
+  docker build --network host -t tmvdl/node:$TAG $TAGS_DIR/$TAG/
   docker tag tmvdl/node:$TAG tmvdl/node:$TAG-$YMD
   docker tag tmvdl/node:$TAG tmvdl/node:$TAG-$YM
 done

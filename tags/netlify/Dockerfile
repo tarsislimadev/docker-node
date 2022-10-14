@@ -1,7 +1,7 @@
-FROM node:lts-alpine
+FROM node:alpine
 
 WORKDIR /app
 
 USER node
 
-RUN npm install -g netlify-cli
+RUN npm i -g netlify-cli

@@ -1,3 +1,3 @@
-FROM node:lts-alpine
+FROM node:alpine
 
-RUN apt update -y && apt install -y git
+RUN apk add --quiet git

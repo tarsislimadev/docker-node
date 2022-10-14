@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+
+  latest:
+    image: tmvdl/node:latest
+    build: './tags/latest'
+
+  docker:
+    image: tmvdl/node:docker
+    build: './tags/docker'
+
+  git:
+    image: tmvdl/node:git
+    build: './tags/git'
+
+  heroku:
+    image: tmvdl/node:heroku
+    build: './tags/heroku'
+
+  netlify:
+    image: tmvdl/node:netlify
+    build: './tags/netlify'
+
+  nextjs:
+    image: tmvdl/node:nextjs
+    build: './tags/nextjs'
+
+  surge:
+    image: tmvdl/node:surge
+    build: './tags/surge'

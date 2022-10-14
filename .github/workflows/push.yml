@@ -1,4 +1,4 @@
-name: Pushing
+name: Push
 
 on:
   schedule:

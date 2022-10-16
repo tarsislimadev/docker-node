@@ -39,8 +39,4 @@ docker run --name nodejs tmvdl/node
 
 ## License
 
-[MIT](LICENSE)
-
-## Update
-
-Atualizado em 16/10/2022
+[MIT](LICENSE) 

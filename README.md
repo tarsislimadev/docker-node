@@ -4,62 +4,6 @@ Imagem Docker para compilaçao de projetos Node.js
 
 Veja mais em [hub.docker.com/r/tmvdl/node](https://hub.docker.com/r/tmvdl/node)
 
-## Tags
-
-### current
-
-```sh
-docker pull tmvdl/node
-```
-
-### alpine
-
-```sh
-docker pull tmvdl/node:alpine
-```
-
-### docker
-
-```sh
-docker pull tmvdl/node:docker
-```
-
-### git
-
-```sh
-docker pull tmvdl/node:git
-```
-
-### heroku
-
-```sh
-docker pull tmvdl/node:heroku
-```
-
-### jest
-
-```sh
-docker pull tmvdl/node:jest
-```
-
-### nextjs
-
-```sh
-docker pull tmvdl/node:nextjs
-```
-
-### surge
-
-```sh
-docker pull tmvdl/node:surge
-```
-
-### vercel
-
-```sh
-docker pull tmvdl/node:vercel
-```
-
 ## Como usar
 
 Instalar o [Docker](https://docs.docker.com/engine/install/).
@@ -99,4 +43,4 @@ docker run --name nodejs tmvdl/node
 
 ## Update
 
-Atualizado em 27/12/2021
+Atualizado em 16/10/2022

@@ -3,7 +3,8 @@ name: Pull
 on:
   schedule:
     - cron: '35 * * * *'
-  workflow_dispatch:
+  push:
+    branches: ['main']
 
 jobs:
   docker:

@@ -4,16 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '35 * * * *'
-  push:
-    branches: 
-      - 'main'
 
 jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      -
-        name: Push
-        run: docker pull tmvdl/node -a
+      - run: docker pull tmvdl/node -a

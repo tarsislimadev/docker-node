@@ -1,6 +1,6 @@
 # Docker Node.js
 
-Imagem Docker para compilaçao de projetos Node.js
+Para compilaçao e entrega de projetos escritos em Node.js
 
 Veja mais em [hub.docker.com/r/tmvdl/node](https://hub.docker.com/r/tmvdl/node)
 
@@ -8,12 +8,11 @@ Veja mais em [hub.docker.com/r/tmvdl/node](https://hub.docker.com/r/tmvdl/node)
 
 Instalar o [Docker](https://docs.docker.com/engine/install/).
 
-### Uso 1
+### Em ambiente de desenvolvimento
 
-1. Criar um arquivo `docker-compose.yaml` na raiz do projeto com a imagem [tmvdl/node](https://hub.docker.com/r/tmvdl/node).
+Criar um arquivo `docker-compose.yaml` na raiz do projeto com a imagem [tmvdl/node](https://hub.docker.com/r/tmvdl/node).
 
 ```yaml
-# docker-compose.yaml
 version: '3'
 
 services:
@@ -23,20 +22,20 @@ services:
       - .:/app
 ```
 
-2. Subir o container para a construção do build
+Subir o container para a construção do build
 
 ```bash
 docker-compose up --build
 ```
 
-### Uso 2
+### Em ambiente de produção
 
-1. Executar como container do Docker
+Executar como container do Docker
 
 ```sh
-docker run --name nodejs tmvdl/node
+docker run tmvdl/node
 ```
 
 ## License
 
-[MIT](LICENSE) 
+[MIT](./LICENSE) 

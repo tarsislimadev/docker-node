@@ -1,3 +1,5 @@
 FROM node:alpine
 
-RUN apk add --quiet git docker-compose nodejs curl wget nano sudo
+WORKDIR /app
+
+RUN apk add --quiet git docker-compose nano sudo

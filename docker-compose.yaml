@@ -25,3 +25,7 @@ services:
   surge:
     image: tmvdl/node:surge
     build: './src/surge'
+
+  angular:
+    image: tmvdl/node:angular
+    build: './src/angular'

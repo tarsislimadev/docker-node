@@ -6,17 +6,17 @@ services:
     image: tmvdl/node:latest
     build: './src/latest'
 
-  docker:
-    image: tmvdl/node:docker
-    build: './src/docker'
-
-  git:
-    image: tmvdl/node:git
-    build: './src/git'
+  angular:
+    image: tmvdl/node:angular
+    build: './src/angular'
 
   heroku:
     image: tmvdl/node:heroku
     build: './src/heroku'
+
+  nestjs:
+    image: tmvdl/node:nestjs
+    build: './src/nestjs'
 
   nextjs:
     image: tmvdl/node:nextjs
@@ -26,6 +26,6 @@ services:
     image: tmvdl/node:surge
     build: './src/surge'
 
-  angular:
-    image: tmvdl/node:angular
-    build: './src/angular'
+  vercel:
+    image: tmvdl/node:vercel
+    build: './src/vercel'

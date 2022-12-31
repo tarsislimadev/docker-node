@@ -4,37 +4,42 @@ To compile Node.js projects
 
 See more [github.com/tmvdl/docker-node](https://github.com/tmvdl/docker-node)
 
-## How to
+## Tags
 
-Install [Docker](https://docs.docker.com/engine/install/).
-
-### At Docker Compose
-
-Create a file `docker-compose.yaml` with [tmvdl/node](https://hub.docker.com/r/tmvdl/node).
-
-```yaml
-# docker-compose.yaml
-version: '3'
-
-services:
-  app:
-    image: tmvdl/node
-    volumes:
-      - .:/app
-```
-
-Up the project
-
-```bash
-docker-compose up
-```
-
-### At Docker environemt
-
-Run using Docker
+### Angular
 
 ```sh
-docker run tmvdl/node
+docker run --rm tmvdl/node:angular
+```
+
+### Heroku
+
+```sh
+docker run --rm tmvdl/node:heroku
+```
+
+### Nest.js
+
+```sh
+docker run --rm tmvdl/node:nestjs
+```
+
+### Next.js
+
+```sh
+docker run --rm tmvdl/node:nextjs
+```
+
+### Surge
+
+```sh
+docker run --rm tmvdl/node:surge
+```
+
+### Vercel
+
+```sh
+docker run --rm tmvdl/node:vercel
 ```
 
 ## License

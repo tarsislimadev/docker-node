@@ -1,5 +1,7 @@
 # Docker Node.js
 
+[![github/actions/workflow/status](https://img.shields.io/github/actions/workflow/status/brtmvdl/docker-node/docker-push.yml)](https://img.shields.io/github/actions/workflow/status/brtmvdl/docker-node/docker-push.yml) [![github/license](https://img.shields.io/github/license/brtmvdl/docker-node)](https://img.shields.io/github/license/brtmvdl/docker-node) [![github/stars](https://img.shields.io/github/stars/brtmvdl/docker-node?style=social)](https://img.shields.io/github/stars/brtmvdl/antify?style=social)
+
 Para compilaçao e entrega de projetos escritos em Node.js
 
 Veja mais em [hub.docker.com/r/tmvdl/node](https://hub.docker.com/r/tmvdl/node)

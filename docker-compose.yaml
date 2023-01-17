@@ -29,3 +29,7 @@ services:
   vercel:
     image: tmvdl/node:vercel
     build: './src/vercel'
+
+  freewhois:
+    image: tmvdl/node:freewhois
+    build: './src/freewhois'

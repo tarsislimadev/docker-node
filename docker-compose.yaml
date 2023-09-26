@@ -33,3 +33,7 @@ services:
   freewhois:
     image: tmvdl/node:freewhois
     build: './src/freewhois'
+
+  wrangler:
+    image: tmvdl/node:wrangler
+    build: './src/wrangler'

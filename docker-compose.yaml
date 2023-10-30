@@ -37,3 +37,7 @@ services:
   wrangler:
     image: tmvdl/node:wrangler
     build: './src/wrangler'
+
+  espeak-alpine:
+    image: tmvdl/node:espeak-alpine
+    build: './src/espeak-alpine'

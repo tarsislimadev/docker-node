@@ -45,3 +45,7 @@ services:
   expo:
     image: tmvdl/node:expo
     build: './src/expo'
+
+  electron:
+    image: tmvdl/node:electron
+    build: './src/electron'

@@ -49,3 +49,7 @@ services:
   electron:
     image: tmvdl/node:electron
     build: './src/electron'
+
+  firebase:
+    image: tmvdl/node:firebase
+    build: './src/firebase'

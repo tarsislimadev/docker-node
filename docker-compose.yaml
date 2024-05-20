@@ -6,6 +6,10 @@ services:
     image: tmvdl/node:latest
     build: './src/latest'
 
+  alpine:
+    image: tmvdl/node:alpine
+    build: './src/alpine'
+
   angular:
     image: tmvdl/node:angular
     build: './src/angular'

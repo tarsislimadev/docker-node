@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Docker Compose Install
-        run: apt update -y && apt install -y docker-compose
+        run: sudo apt update -y && sudo apt install -y docker-compose
       - name: Docker login
         uses: docker/login-action@v1 
         with:

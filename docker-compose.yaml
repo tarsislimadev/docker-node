@@ -57,3 +57,7 @@ services:
   firebase:
     image: tmvdl/node:firebase
     build: './src/firebase'
+
+  ionic:
+    image: tmvdl/node:ionic
+    build: './src/ionic'
